@@ -76,9 +76,10 @@ with tab1:
     show_plot(fig)
 
     st.write(
-        "**Interpretation:** Compare stroke thickness, slant, and loop shape "
-        "across the examples. Images with the same label can look different, "
-        "while different digits may share similar strokes."
+        "**Interpretation:** The montage shows variation in stroke thickness, "
+        "slant, and shape among images with the same digit label. Some "
+        "handwritten digits also resemble other classes, which can make "
+        "classification challenging."
     )
 
     st.subheader("Class balance in the full dataset")
