@@ -193,7 +193,7 @@ with tab3:
         f"**Predicted-class probability:** {original_probability:.1%}"
     )
 
-    fig, axes = plt.subplots(1, 3, figsize=(12, 4))
+    fig, axes = plt.subplots(1, 3, figsize=(12, 4), layout="constrained")
     axes[0].imshow(img, cmap="gray", vmin=0, vmax=16)
     axes[0].set_title("Original image")
     heatmap = axes[1].imshow(
